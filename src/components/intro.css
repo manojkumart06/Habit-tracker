@@ -1,0 +1,96 @@
+/* CSS for heading on Mobile Screens */
+.list-habits .habit-container{
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  margin: 10px;
+}
+
+.list-habits .habit-container:hover {
+  box-shadow: 0 8px 8px rgba(152, 222, 232, 0.941); /* Increase shadow on hover */
+}
+
+
+.onMobile i {
+    color: rgb(80, 65, 197);
+    font-size: 25px;
+  }
+ 
+   .onMobile h4 {
+    color: rgb(18, 15, 32);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+  } 
+  
+  .mobile{
+    border: none;
+    font-weight: 600;
+    background-image: linear-gradient(to top, #9be15d 0%, #00e362 100%);
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+
+  .mobile:hover{
+    box-shadow: 0 5px 5px rgba(4, 196, 234, 0.941); /* Increase shadow on hover */
+  }
+
+  .icons img{
+    margin-top : -15px;
+    width: 50px;
+  }
+
+  .icons2 img{
+    width: 30px;
+  }
+  
+  .habit-img img {
+    margin-top: 30px;
+    width: 320px;
+    /* Prepare for animation */
+    transition: transform 0.1s ease, opacity 0.5s ease;
+  }
+  
+  .habit-img:hover img {
+    /* Start the animation when the parent div is hovered */
+    animation-name: hoverSlideIn;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards; /* Keeps the state of the animation at the end */
+  }
+  
+  @keyframes hoverSlideIn {
+    from {
+      transform: translateY(-20px); /* Slightly raise the image */
+      opacity: 0.8; /* Start with less opacity */
+    }
+    to {
+      transform: translateY(0); /* Return to original position */
+      opacity: 1; /* Full opacity */
+    }
+  }
+  
+  
+
+
+  @media screen and (max-width: 600px) {
+    .onMobile {
+      display: inline-block;
+      width: 30px;
+    }
+  
+    .icons {
+      display: inline-block;
+      width: 30px;
+    }
+    .habit-title {
+      display: inline-block;
+      width: 100px;
+    }
+    .habit-container {
+      width: 50vw;
+    }
+    .mobile {
+      margin-right: auto;
+      font-size: 14px;
+    }
+  }
+
+  

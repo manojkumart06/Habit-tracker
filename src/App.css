@@ -1,11 +1,26 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+/* CSS for Typed.js strings */
+h4 {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styling for the typing cursor */
+.typed-cursor {
+  font-weight: bold;
+  color: #777; /* Cursor color */
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

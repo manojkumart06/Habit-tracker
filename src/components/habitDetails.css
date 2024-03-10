@@ -1,0 +1,30 @@
+/* HabitDetails.css */
+
+/* Styling for day headings */
+.day-headings {
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    color: #fc0198;
+  }
+  
+  /* Styling for icons */
+  .icon {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 10px; /* Add some spacing between icons */
+  }
+  
+  .day-completed {
+    font-size: 1rem;
+    color: #30404e;
+    margin-top: 1rem;
+  }
+
+  .fa-circle-minus{
+    color: rgb(69, 69, 255);
+  }
+  
+  .day-completed strong{
+    color: rgb(13, 2, 139);
+  }
