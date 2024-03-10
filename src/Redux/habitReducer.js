@@ -26,7 +26,7 @@ details.forEach((detail, index) => {
 // load habits from local storage if there are any
 const habitsFromStorage = localStorage.getItem("newHabits")
   ? JSON.parse(localStorage.getItem("newHabits"))
-  : [{ title: "Wake Up", description: "wake up at 3:45am", details }];
+  : [{ title: "Exercise", description: "Go for a 30-minute run", details }];
 
 let habits = [...habitsFromStorage];
 
