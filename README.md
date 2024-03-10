@@ -10,7 +10,7 @@ Create a habit tracker app using React, where users can define habits and track 
 - Add button to add a new habit.
 
 ## Live Demo
-A live demo of the Habit Tracker React App can be found [here](#).
+A live demo of the Habit Tracker React App can be found [here](https://habitstrackerforus.netlify.app/).
 
 ## Technologies Used
 - React
